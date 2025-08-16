@@ -1,0 +1,152 @@
+{
+  "뱅>뱅": {
+    "PatternName": "뱅>뱅",
+    "IsUse": true,
+    "RoundStartNumber": 5,
+    "RoundEndNumber": 90,
+    "IsOverRoundBet": true,
+    "MartinIndex": 1,
+    "IsCruiseMartinAmount": true,
+    "CruiseMartinAmounts": "1,000/1,720 1,500/2,580 2,250/3,870 3,375/5,805 5,063/8,708 7,594/13,061 11,391/19,592 17,086/29,388 25,629/44,082",
+    "IsMartinAmount": true,
+    "MartinAmounts": "1,000 2,000 4,000 8,000",
+    "IsLossMartin": true,
+    "LossMartinFailOption": "처음 단계",
+    "CyclePatterns": [
+      {
+        "ClickValue": {},
+        "CycleOption": "뱅커",
+        "CycleCount": 1
+      }
+    ],
+    "CyclePatternBetting": "뱅커",
+    "CycleNotPatterns": [],
+    "ScorePatternScore": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "FormulaPatterns": [
+      {
+        "Condition": "L1=[B]:TRUE"
+      }
+    ],
+    "FormulaBet": "B",
+    "IsFormulaTieRetry": true,
+    "RestFormulas": [
+      {}
+    ],
+    "IsRestOption": true,
+    "RestConditionCount": 2,
+    "RestCondition": "연속 패배 시",
+    "RestCount": 1
+  },
+  "플>뱅": {
+    "PatternName": "플>뱅",
+    "IsUse": true,
+    "RoundStartNumber": 5,
+    "RoundEndNumber": 90,
+    "IsOverRoundBet": true,
+    "MartinIndex": 1,
+    "IsCruiseMartinAmount": true,
+    "CruiseMartinAmounts": "1,000/1,720 1,500/2,580 2,250/3,870 3,375/5,805 5,063/8,708 7,594/13,061 11,391/19,592 17,086/29,388 25,629/44,082",
+    "IsMartinAmount": true,
+    "MartinAmounts": "1,000 2,000 4,000 8,000",
+    "IsLossMartin": true,
+    "LossMartinFailOption": "처음 단계",
+    "CyclePatterns": [
+      {
+        "ClickValue": {},
+        "CycleOption": "플레이어",
+        "CycleCount": 1
+      }
+    ],
+    "CyclePatternBetting": "뱅커",
+    "CycleNotPatterns": [],
+    "ScorePatternPosition": "뱅커",
+    "ScorePatternScore": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "ScorePatternBetting": "플레이어",
+    "ScorePatternBettingTie": "플레이어",
+    "FormulaPatterns": [
+      {
+        "Condition": "L1=[B]:TRUE"
+      }
+    ],
+    "FormulaBet": "B",
+    "IsFormulaTieRetry": true,
+    "RestFormulas": [
+      {}
+    ],
+    "IsRestOption": true,
+    "RestConditionCount": 2,
+    "RestCondition": "연속 패배 시",
+    "RestCount": 1
+  },
+  "타>뱅": {
+    "PatternName": "타>뱅",
+    "IsUse": true,
+    "RoundStartNumber": 5,
+    "RoundEndNumber": 90,
+    "IsOverRoundBet": true,
+    "MartinIndex": 1,
+    "IsCruiseMartinAmount": true,
+    "CruiseMartinAmounts": "1,000/1,720 1,500/2,580 2,250/3,870 3,375/5,805 5,063/8,708 7,594/13,061 11,391/19,592 17,086/29,388 25,629/44,082",
+    "IsMartinAmount": true,
+    "MartinAmounts": "1,000 2,000 4,000 8,000",
+    "IsLossMartin": true,
+    "LossMartinFailOption": "처음 단계",
+    "CyclePatterns": [
+      {
+        "ClickValue": {},
+        "CycleOption": "타이",
+        "CycleCount": 1
+      }
+    ],
+    "CyclePatternBetting": "뱅커",
+    "CycleNotPatterns": [],
+    "ScorePatternScore": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "FormulaPatterns": [
+      {
+        "Condition": "L1=[B]:TRUE"
+      }
+    ],
+    "FormulaBet": "B",
+    "IsFormulaTieRetry": true,
+    "RestFormulas": [
+      {}
+    ],
+    "IsRestOption": true,
+    "RestConditionCount": 2,
+    "RestCondition": "연속 패배 시",
+    "RestCount": 1
+  }
+}
